@@ -22,7 +22,7 @@ For the NLP implementation code –
   -	From sklearn we imported **metrics** to produce Accuracy & confusion_matrix for our model.  
 
 | Vectorizer | ML model | Accuracy |
-| --- | --- |
+| ------------- |-------------| -----|
 | CountVectorizer | MultinomialNB Algorithm | 0.902 |
 | CountVectorizer | Passive Aggressive Classifier | 0.918 |
 | CountVectorizer | MultinomialNB Classifier(Hyper Parameter Tuning) | 0.9026 |
