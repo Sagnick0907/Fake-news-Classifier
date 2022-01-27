@@ -6,10 +6,7 @@
   * [Technologies Used](#technologies-used)
 
 ## Overview
-This is a Fake News Classifier using - CountVectorizer(Bag Of Words)  
-                                     - TfID Vectorizer
-                                     - Hashing Vectorizer  
-trained on MultinomialNB Algorithm, Passive Aggressive Classifier Algorithm, MultinomialNB Algorithm with Hyper Parameter Tuning.  
+This is a Fake News Classifier using - CountVectorizer(Bag Of Words), TfID Vectorizer, Hashing Vectorizer trained on MultinomialNB Algorithm, Passive Aggressive Classifier Algorithm, MultinomialNB Algorithm with Hyper Parameter Tuning.  
 
 ## Technical Aspect
 Dataset Link: https://www.kaggle.com/c/fake-news/data?select=submit.csv  
@@ -23,12 +20,14 @@ For the NLP implementation code –
   -	Performed a **train_test_split** on labels & messages.
   -	Trained & tested the model using **MultinomialNB Classifier**, **Passive Aggressive Classifier** & **MultinomialNB Classifier with Hyper Parameter Tuning**.
   -	From sklearn we imported **metrics** to produce Accuracy & confusion_matrix for our model.  
-      - CountVectorizer MultinomialNB Algorithm 0.902
-      - CountVectorizer Passive Aggressive Classifier 0.918
-      - CountVectorizer MultinomialNB Classifier(Hyper Parameter Tuning)  0.9026
-      - TfID Vectorizer MultinomialNB Algorithm 0.900
-      - TfID Vectorizer MultinomialNB Classifier(Hyper Parameter Tuning)  0.9022
-      - HashingVectorizer MultinomialNB Algorithm 0.876
+| Vectorizer | ML model | Accuracy |
+| --- | --- |
+| CountVectorizer | MultinomialNB Algorithm | 0.902 |
+| CountVectorizer | Passive Aggressive Classifier | 0.918 |
+| CountVectorizer | MultinomialNB Classifier(Hyper Parameter Tuning) | 0.9026 |
+| TfID Vectorizer | MultinomialNB Algorithm | 0.900 |
+| TfID Vectorizer | MultinomialNB Classifier(Hyper Parameter Tuning) | 0.9022 |
+| HashingVectorizer | MultinomialNB Algorithm  | 0.876 |
       
 ## Technologies Used
 - Jupyter Notebook
