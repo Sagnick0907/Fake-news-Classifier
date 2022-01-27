@@ -20,6 +20,7 @@ For the NLP implementation code –
   -	Performed a **train_test_split** on labels & messages.
   -	Trained & tested the model using **MultinomialNB Classifier**, **Passive Aggressive Classifier** & **MultinomialNB Classifier with Hyper Parameter Tuning**.
   -	From sklearn we imported **metrics** to produce Accuracy & confusion_matrix for our model.  
+
 | Vectorizer | ML model | Accuracy |
 | --- | --- |
 | CountVectorizer | MultinomialNB Algorithm | 0.902 |
